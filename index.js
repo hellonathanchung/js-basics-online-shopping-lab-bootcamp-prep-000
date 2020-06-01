@@ -32,8 +32,6 @@ function total() {
   for (var i = 0; i < cart.length; i++) ;
   totalcost += cart[i].itemPrice;
 }
-return total;
-}
 
 function removeFromCart(item) {
   // write your code here
