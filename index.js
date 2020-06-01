@@ -28,7 +28,10 @@ function viewCart() {
   }
 }
 function total() {
-  var sum = 
+  var total = 0;
+  for (var i=0; i < getcart().length; i++) {
+    total = total + getcart()[i].itemPrice
+  }
   }
 
 function removeFromCart(item) {
