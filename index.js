@@ -28,10 +28,7 @@ function viewCart() {
   }
 }
 function total() {
-  totalCost = 0;
-  for (var i = 0; i < cart.length; i++) ;
-  totalcost += cart[i].itemPrice;
-}
+  var total = 0;
 
 function removeFromCart(item) {
   // write your code here
