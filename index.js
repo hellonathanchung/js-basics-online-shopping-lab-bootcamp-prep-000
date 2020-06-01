@@ -28,9 +28,9 @@ function viewCart() {
   }
 }
 function total() {
-  total = 0;
+  totalCost = 0;
   for (var i = 0; i < cart.length; i++) ;
-  total += cart[i].itemPrice;
+  totalcost += cart[i].itemPrice;
 }
 return total;
 }
