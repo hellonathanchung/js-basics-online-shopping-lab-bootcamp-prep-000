@@ -28,7 +28,7 @@ function viewCart() {
   }
 }
 function total() {
-  var total = 0;
+  var sum = 
   }
 
 function removeFromCart(item) {
