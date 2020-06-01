@@ -29,8 +29,8 @@ function viewCart() {
 }
 function total() {
   var total = 0;
-  for (var i=0; i < getcart().length; i++) {
-    total = total + getcart()[i].itemPrice
+  for (var i=0; i < cart.length; i++) {
+    total = total + cart[i].itemPrice
   }
   return total
   }
